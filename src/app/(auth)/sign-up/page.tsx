@@ -23,7 +23,9 @@ const Page = () => {
     resolver: zodResolver(AuthCredentialsValidator),
   });
 
-  const onSubmit = ({ email, password }: TAuthCredentialsValidator) => {};
+  const onSubmit = ({ email, password }: TAuthCredentialsValidator) => {
+    // send data
+  };
 
   return (
     <div className="container relative flex pt-20 flex-col items-center justify-center lg:px-0">
