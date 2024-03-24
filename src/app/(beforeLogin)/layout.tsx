@@ -13,3 +13,5 @@ const BeforeLoginLayout = ({ children, modal }: BeforeLoginLayoutProps) => {
 };
 
 export default BeforeLoginLayout;
+
+// localhost:3000 일 때 children - page.tsx, modal - default.tsx
