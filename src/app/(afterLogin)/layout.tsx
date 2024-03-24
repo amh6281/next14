@@ -1,8 +1,4 @@
-const AfterLoginLayout = ({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) => {
+const AfterLoginLayout = ({ children }: { children: React.ReactNode }) => {
   return <div>afterLoginLayout{children}</div>;
 };
 

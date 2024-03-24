@@ -1,12 +1,12 @@
 import Link from 'next/link';
-import Logo from '../../public/logo.png';
+import Logo from '../../../public/logo.png';
 import Image from 'next/image';
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <div className='flex flex-1 justify-center items-center'>
-        <Image src={Logo} alt='logo' />
+        <Image src={Logo} alt='logo' width={600} height={600} />
       </div>
       <div className='flex flex-1 flex-col items-center justify-center'>
         <span className='text-5xl font-bold my-12 mx-0'>
@@ -31,4 +31,6 @@ export default function Home() {
       </div>
     </>
   );
-}
+};
+
+export default Home;
