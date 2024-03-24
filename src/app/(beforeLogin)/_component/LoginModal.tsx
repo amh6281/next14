@@ -15,13 +15,13 @@ const LoginModal = () => {
               </g>
             </svg>
           </button>
-          <div>로그인하세요.</div>
+          <div>로그인</div>
         </div>
         <form className='flex flex-col flex-1'>
           <div className='flex-1 py-0 px-20'>
             <div className='flex flex-col h-14 relative my-3 mx-0'>
               <label
-                className='w-full inline-block absolute top-0 border-[rgb(207,217,222)] rounded text-sm h-14 pt-2 px-2 pb-0 text-[rgb(83,100,113)] focus-within:text-red'
+                className='w-full inline-block absolute top-0 border border-[#CFD9DE] rounded text-sm h-14 pt-2 px-2 pb-0 text-[rgb(83,100,113)] focus-within:text-red'
                 htmlFor='id'
               >
                 아이디
@@ -35,7 +35,7 @@ const LoginModal = () => {
             </div>
             <div className='flex flex-col h-14 relative my-3 mx-0'>
               <label
-                className='w-full inline-block absolute top-0 border-[rgb(207,217,222)] rounded text-sm h-14 pt-2 px-2 pb-0 text-[rgb(83,100,113)] focus-within:text-red'
+                className='w-full inline-block absolute top-0 border border-[#CFD9DE] rounded text-sm h-14 pt-2 px-2 pb-0 text-[rgb(83,100,113)] focus-within:text-red'
                 htmlFor='password'
               >
                 비밀번호
