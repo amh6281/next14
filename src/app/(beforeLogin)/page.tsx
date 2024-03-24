@@ -23,7 +23,7 @@ const Home = () => {
           이미 가입하셨나요?
         </span>
         <Link
-          href='/login'
+          href='/i/flow/login'
           className='w-[300px] h-10 rounded-2xl py-0 px-4 text-sm text-[#1D9BF0] border-[#CFD9DE] flex items-center justify-center hover:bg-[rgba(29,155,240,0.1)]'
         >
           로그인
