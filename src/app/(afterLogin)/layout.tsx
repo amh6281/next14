@@ -1,10 +1,20 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import Logo from '../../../public/logo.png';
+
 const AfterLoginLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className='flex items-stretch bg-white'>
       {/* leftSection */}
       <header className='flex items-end flex-col flex-grow'>
         <section className='w-[275px h-dvh'>
-          <div className='fixed w-[275px] h-dvh flex flex-col'></div>
+          <div className='fixed w-[275px] h-dvh flex flex-col'>
+            <Link href='/home' className='inline-block h-14 mt-0.5'>
+              <div className='w-[50px] h-[50px] rounded-full flex justify-center items-center hover:bg-[#eff3f4]'>
+                <Image src={Logo} alt='logo' />
+              </div>
+            </Link>
+          </div>
         </section>
       </header>
 
